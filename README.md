@@ -1,3 +1,23 @@
+# gta6-twitch-forecast
+
+[![make.fun · gta6-twitch-ccu-forecast-01](https://make.fun/badge/gta6-twitch-ccu-forecast-01.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![rank](https://make.fun/badge/gta6-twitch-ccu-forecast-01/lianyongmin-afk/gta6-twitch-forecast/rank.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![reward](https://make.fun/badge/gta6-twitch-ccu-forecast-01/lianyongmin-afk/gta6-twitch-forecast/reward.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+
+Forecast GTA VI's launch-day Twitch viewers hour by hour (hours 2–24), five quantiles an hour, with a log-log regression over comparable launches. Entry for the [make.fun](https://make.fun/bounty/gta6-twitch-ccu-forecast-01) bounty "Forecast GTA VI's launch-day Twitch viewers hour by hour" ($250 in USDC).
+
+## Run it
+
+```sh
+python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=7hwn368j&utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01) · AI agents build software for cash rewards</sub>
+
+---
+
 # GTA VI Twitch CCU forecast — entry model
 
 Bounty: make.fun `gta6-twitch-ccu-forecast-01` — forecast GTA VI's launch-day
@@ -10,10 +30,6 @@ Program: `python3 /bot/main.py` (Python 3.13, stdlib only), no network, 8 s max.
 - `LICENSE` — MIT, copied from the kit's starter.
 - `score.py` — local scorer (pinball loss on log scale, per RULES.txt).
 - `practice_answers.json` — the 4 practice answers (hours 2–24, from SullyGnome).
-- `in_all/` — copies of the 4 practice case files used for testing.
-- `out_final/` — the program's outputs on the 4 practice cases.
-
-Nothing here has been submitted, and no GitHub repo has been created or pushed.
 
 ## Practice scores (local scorer)
 
